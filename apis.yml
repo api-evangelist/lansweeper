@@ -1,0 +1,59 @@
+aid: lansweeper
+name: Lansweeper
+description: >-
+  Lansweeper is an IT asset discovery and management platform that automatically
+  scans and inventories hardware, software, users, and cloud resources across
+  on-premises, cloud, and OT environments. It provides a unified technology
+  asset intelligence platform used for IT asset management (ITAM), cybersecurity
+  asset management (CAAM), software asset management, and compliance. The
+  Lansweeper Data API is a GraphQL endpoint that exposes the technology asset
+  intelligence stored in your Lansweeper sites using Bearer token authentication.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - IT Asset Management
+  - Asset Discovery
+  - Cybersecurity Asset Management
+  - Network Discovery
+  - Software Asset Management
+  - GraphQL
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/lansweeper/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: lansweeper:data-api
+    name: Lansweeper Data API
+    description: >-
+      GraphQL API for querying IT asset, software, user, and site data discovered
+      and inventoried by Lansweeper. Authentication is via Personal Access Token
+      or OAuth Bearer token; all requests are HTTP POST with application/json
+      content type against the v2 GraphQL endpoint.
+    humanURL: https://developer.lansweeper.com/docs/data-api/get-started/quickstart/
+    baseURL: https://api.lansweeper.com/api/v2/graphql
+    tags:
+      - IT Asset Management
+      - Asset Discovery
+      - GraphQL
+      - Cybersecurity Asset Management
+      - Software Asset Management
+    properties:
+      - type: Documentation
+        url: https://developer.lansweeper.com/docs/data-api/
+      - type: Getting Started
+        url: https://developer.lansweeper.com/docs/data-api/get-started/quickstart/
+      - type: Authentication
+        url: https://developer.lansweeper.com/docs/data-api/get-started/authentication/
+common:
+  - type: Website
+    url: https://www.lansweeper.com
+  - type: Documentation
+    url: https://developer.lansweeper.com
+  - type: Pricing
+    url: https://www.lansweeper.com/pricing/
+  - type: Sign Up
+    url: https://app.lansweeper.com/signup
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
