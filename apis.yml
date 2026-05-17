@@ -41,7 +41,7 @@ apis:
     properties:
       - type: Documentation
         url: https://developer.lansweeper.com/docs/data-api/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://developer.lansweeper.com/docs/data-api/get-started/quickstart/
       - type: Authentication
         url: https://developer.lansweeper.com/docs/data-api/get-started/authentication/
@@ -52,7 +52,7 @@ common:
     url: https://developer.lansweeper.com
   - type: Pricing
     url: https://www.lansweeper.com/pricing/
-  - type: Sign Up
+  - type: SignUp
     url: https://app.lansweeper.com/signup
 maintainers:
   - FN: Kin Lane
