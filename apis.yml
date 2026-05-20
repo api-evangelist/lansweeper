@@ -46,6 +46,10 @@ apis:
       - type: Authentication
         url: https://developer.lansweeper.com/docs/data-api/get-started/authentication/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Lansweeper
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/lansweeper
   - type: Website
     url: https://www.lansweeper.com
   - type: Documentation
