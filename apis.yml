@@ -58,7 +58,7 @@ common:
   url: https://developer.lansweeper.com
 - type: Pricing
   url: https://www.lansweeper.com/pricing/
-- type: SignUp
+- type: Signup
   url: https://app.lansweeper.com/signup
 maintainers:
 - FN: Kin Lane
