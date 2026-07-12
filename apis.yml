@@ -48,6 +48,8 @@ apis:
   - url: graphql/lansweeper-graphql.md
     type: GraphQL
 common:
+- type: DomainSecurity
+  url: security/lansweeper-domain-security.yml
 - type: GitHubOrganization
   url: https://github.com/Lansweeper
 - type: LinkedIn
@@ -60,6 +62,8 @@ common:
   url: https://www.lansweeper.com/pricing/
 - type: Signup
   url: https://app.lansweeper.com/signup
+- type: Blog
+  url: https://www.lansweeper.com/feed/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
